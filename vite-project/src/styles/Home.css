@@ -1,0 +1,164 @@
+/* Home.css */
+
+/* Estilos generales */
+.home-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-family: 'Arial', sans-serif; /* Cambia la fuente para todo el contenido */
+    color: #000000; /* Color principal del texto */
+  }
+  
+  /* Estilos para secciones */
+  section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd; /* Línea divisoria entre secciones */
+    padding-bottom: 20px; /* Añade espacio de relleno al final de cada sección */
+  }
+  
+  /* Estilos para títulos */
+  h2 {
+    color: #007bff; /* Color azul para los títulos */
+  }
+  
+  /* Estilos para párrafos */
+  p {
+    line-height: 1.6;
+  }
+  
+  /* Estilos para imágenes */
+  img {
+    max-width: 1000;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para tarjetas de productos/testimonios */
+  .product-card, .testimonial {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s; /* Agrega una transición suave a la sombra */
+  }
+  
+  .product-card:hover, .testimonial:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Eleva la tarjeta al pasar el ratón por encima */
+  }
+  
+  /* Estilos para enlaces */
+  a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Estilos para la sección de ofertas especiales */
+  .special-offers-section {
+    background-color: #f8f9fa; /* Color de fondo para destacar la sección de ofertas especiales */
+    padding: 20px;
+  }
+  
+  /* Estilos para la sección de productos destacados */
+  .featured-products-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+  }
+  
+  /* Estilos para las tarjetas de productos destacados */
+  .product-card {
+    flex: 1;
+  }
+  
+  /* Estilos para la sección de testimonios */
+  .customer-testimonials-section {
+    text-align: center;
+  }
+  
+  /* Estilos para la tarjeta de testimonio */
+  .testimonial {
+    display: inline-block;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  
+  /* Estilos para títulos */
+  h2 {
+    color: #007bff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra para resaltar los títulos */
+  }
+  
+  /* Estilos para imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out; /* Agrega una transición a las imágenes */
+  }
+  
+  img:hover {
+    transform: scale(1.01); /* Hace que la imagen se agrande ligeramente al pasar el ratón por encima */
+  }
+  
+  /* Estilos para enlaces */
+  a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline; /* Subraya los enlaces al pasar el ratón por encima */
+  }
+  
+  /* Estilos para la sección de ofertas especiales */
+  .special-offers-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para las tarjetas de productos destacados y testimonios */
+  .product-card, .testimonial {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s, transform 0.3s ease-in-out; /* Agrega transiciones suaves */
+  }
+  
+  .product-card:hover, .testimonial:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+  
+  .img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .img-panBono {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    text-align: center;
+  }
+
+  .welcome-section {
+    justify-content: center;
+    text-align: center;
+  }

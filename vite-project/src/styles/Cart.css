@@ -1,0 +1,41 @@
+.cart-container {
+    margin: 20px; /* Ajusta según sea necesario */
+    margin-top: 60px; /* Agrega un margen superior para evitar la superposición con el NavBar */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+      
+      
+}
+  
+.cart-list {
+    list-style: none;
+    padding: 0;
+}
+  
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+  
+.item-details {
+    flex-grow: 1;
+}
+  
+button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #c82333;
+}
+  

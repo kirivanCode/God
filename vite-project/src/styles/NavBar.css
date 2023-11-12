@@ -1,0 +1,34 @@
+/* NavBar.css */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ajusta la anchura al 100% */
+    position: fixed; /* Fija la barra de navegación en la parte superior */
+    top: 0; /* Sitúa la barra en la parte superior de la página */
+    z-index: 1000; /* Asegura que la barra de navegación esté sobre otros elementos */
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Usa flexbox para alinear los elementos */
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  /* Estilos para los enlaces */
+  Link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  Link:hover {
+    color: #0056b3;
+  }
+  

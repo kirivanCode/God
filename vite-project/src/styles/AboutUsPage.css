@@ -1,0 +1,35 @@
+/* AboutUsPage.css */
+.about-us-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-us-header {
+    font-size: 50px;
+    color: #007bff; /* Puedes ajustar el color según tu preferencia */
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  
+  .about-us-image {
+    width: 80%; /* Ajusta el ancho de la imagen según sea necesario */
+    max-height: 400px; /* Ajusta la altura máxima según sea necesario */
+    object-fit: cover; /* Para asegurar que la imagen mantenga su relación de aspecto */
+    border-radius: 8px; /* Agrega bordes redondeados a la imagen */
+    margin-top: 20px; /* Añade un margen superior para separar la imagen del texto */
+  }
+  
+  .about-us-content {
+    margin-top: 20px; /* Añade un espacio entre la imagen y el contenido de texto */
+    line-height: 1.5; /* Mejora la legibilidad del texto */
+  }
+  
+  .lema-container {
+    margin: 20px; /* Ajusta según sea necesario */
+    margin-top: 60px; /* Agrega un margen superior para evitar la superposición con el NavBar */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  
